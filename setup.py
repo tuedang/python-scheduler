@@ -25,7 +25,7 @@ setup(
     url="https://github.com/tuedang",
     entry_points={
         "console_scripts": [  # command-line executables to expose
-            "helloworld_in_python = plotmoving.main:main",
+            "scheduler_in_python = pythonw scheduler.py",
         ],
         "gui_scripts": []  # GUI executables (creates pyw on Windows)
     }
